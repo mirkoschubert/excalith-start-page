@@ -1,20 +1,20 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "musikuss",
 	theme: {
-		backgroundColor: "#121317",
-		windowColor: "#1e212b",
-		glowColor: "#6b5cb157",
-		white: "#e2e2e2",
-		gray: "#97989d",
-		black: "#16161e",
-		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
-		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		violet: "#d1aff8",
-		orange: "#ff8800"
+		backgroundColor: "#191c2a",
+		windowColor: "#1a1b26",
+		glowColor: "#27a1b957",
+		white: "#c0caf5",
+		gray: "#6D7599",
+		black: "#191c2a",
+		red: "#f7768e",
+		green: "#9ece6a",
+		yellow: "#e0af68",
+		blue: "#7aa2f7",
+		cyan: "#2ac3de",
+		magenta: "#bb9af7",
+		violet: "#9d7cd8",
+		orange: "#ff9e64"
 	},
 	wallpaper: {
 		url: "",
@@ -112,23 +112,23 @@ const defaultConfig = {
 				links: [
 					{
 						name: "Portfolio",
-						url: "https://cancellek.com",
+						url: "https://mirkoschubert.de/",
 						icon: "mdi:web"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "Blog",
+						url: "https://flussgeist.com/",
+						icon: "mdi:post"
 					},
 					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
+						name: "Perplexity",
+						url: "https://perplexity.ai/",
 						icon: "simple-icons:openai"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						name: "Bio.link",
+						url: "https://bio.link/musikuss",
+						icon: "simple-icons:biolink"
 					}
 				]
 			},
@@ -139,13 +139,8 @@ const defaultConfig = {
 				links: [
 					{
 						name: "GitHub",
-						url: "https://github.com",
+						url: "https://github.com/mirkoschubert",
 						icon: "mdi:github"
-					},
-					{
-						name: "GitLab",
-						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
 					},
 					{
 						name: "Dev.to",
@@ -156,6 +151,11 @@ const defaultConfig = {
 						name: "Stack Overflow",
 						url: "https://stackoverflow.com/",
 						icon: "mdi:stack-overflow"
+					},
+					{
+						name: "Goodday",
+						url: "https://www.goodday.work/login",
+						icon: "mdi:work"
 					}
 				]
 			},
@@ -165,13 +165,13 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Twitter",
-						url: "https://twitter.com",
-						icon: "mdi:twitter"
+						name: "YouTube",
+						url: "https://youtube.com",
+						icon: "mdi:youtube"
 					},
 					{
 						name: "Mastodon",
-						url: "https://mastodon.social/",
+						url: "https://troet.cafe/home",
 						icon: "ri:mastodon-fill"
 					},
 					{
@@ -180,9 +180,9 @@ const defaultConfig = {
 						icon: "mdi:reddit"
 					},
 					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						name: "OKCupid",
+						url: "https://okcupid.com",
+						icon: "simple-icons:okcupid"
 					}
 				]
 			},
@@ -192,51 +192,51 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Geoguessr",
+						url: "https://www.geoguessr.com/",
+						icon: "mdi:place"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "Upland",
+						url: "https://play.upland.me/",
+						icon: "fluent:real-estate-24-filled"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
+						name: "Decentraland",
+						url: "https://play.decentraland.org/",
+						icon: "icon-park-outline:pyramid"
 					},
 					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "The Sandbox",
+						url: "https://www.sandbox.game/en/",
+						icon: "mdi:alpha-s-box"
 					}
 				]
 			},
 			{
-				title: "Science",
+				title: "Crypto",
 				color: "blue",
 				align: "left",
 				links: [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
+						name: "Coinmarketcap",
+						url: "https://coinmarketcap.com/",
+						icon: "simple-icons:coinmarketcap"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
+						name: "AssetDash",
+						url: "https://members.assetdash.com/portfolio",
+						icon: "tabler:dashboard"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
+						name: "Magic Eden",
+						url: "https://magiceden.io/me",
+						icon: "ri:magic-fill"
 					},
 					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
+						name: "Koinly",
+						url: "https://app.koinly.io/p",
+						icon: "tabler:coin-bitcoin"
 					}
 				]
 			},
